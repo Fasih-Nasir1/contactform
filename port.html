@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&family=Sofia+Sans+Condensed:wght@1000&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link rel="stylesheet" href="index.css"/>
+  <title>Fn-PortFolio</title>
+</head>
+
+<body>
+  <!-- lader -->
+  <div class="container-fluid" id="lb">
+    <div class="row" id="rowl">
+      <div class="col-5" id="lbc">
+
+      </div>
+      <div class="col-2" id="const">
+        <!-- <br> -->
+        <h4 class="h4" id="hconst">Fn.PortFolio</h4>
+        <!-- <div class="load"></div> -->
+        <div id="loader"></div>
+         <div id="loader1">0</div>
+      </div>
+      <br>
+      <br>
+      <div class="col-5" id="lbc1">
+<!--         
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci nisi eum debitis maxime laboriosam, eius et
+        deleniti id optio quas doloribus quo fugiat neque accusamus maiore
+Lorem, ipsum dolor. pariatur fugit facere quis quo eos veritatis ad repudiandae. Officiis ipsum hic corporis ea est quos molestiae nostrum velit nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, distinctio. -->
+      </div>
+    </div>
+  </div>
+  <!-- loader -->
+  <!-- <div> -->
+    <div class="circle-cursor" id="cr"></div>
+    <!-- circle-cursor -->
+    <div class="container-fluid" id="cont">
+      <div class="row" id="row">
+   
+        <div class="col-md-3 col-sm-4" id="col-3">
+
+          <div class="box">
+            <div>
+              <div class="spinner-cont">
+                <div class="spinner"></div>
+                <img src="fn-slider-img.jpg" class="img-fluid" id="i1" alt="" /><br>
+
+                <p class="h-1" id="he1">FASIH NASIR</p>
+                <p1 class="para" id="p1">Web-Developer</p1>
+
+                <button id="toggleButton" onclick="toggleParagraph()">
+
+                  <i class="fa fa-bars" class="bars"></i>
+
+                </button>
+                <!-- </div> -->
+              </div>
+
+            </div>
+
+          </div>
+          <div class="hidden" id="myParagraph">
+            <div class="box-1" id="hiddenParagraph">
+
+              <div class="box-2">
+                <div>
+                  <p1 class="paragraph-1">Res</p1>
+                  <p1 class="paragraph-1">City:</p1>
+                  <p1 class="paragraph-1" id="age">Age:</p1>
+                </div>
+                <div>
+                  <span class="span1">Pak</span>
+                  <span class="span1">Karachi</span>
+                  <span id="span1" class="span1">17</span></p1>
+                </div>
+              </div>
+
+              <div class="p2"></div>
+
+              <div class="box-3">
+                <div class="cont-num1">
+                  <div id="numi"></div>
+                  <div id="num">0</div>
+
+                  <p style="font-size: 12px;">URDU</p>
+                </div>
+                <!--  -->
+                <div class="cont-num2">
+                  <div id="numi"></div>
+                  <div id="num1">0 </div>
+                  <p style="font-size: 12px;"> <span> ENG</span></p>
+                </div>
+              </div>
+              <div class="p2"></div>
+
+              <!--  -->
+              <div class="box-4">
+
+                <div class="head">
+                  <h5 class="heading-5">Html <div id="html">0</div>
+                  </h5>
+                  <div class="html"></div>
+                  <h5 class="heading-5">CSS <div id="css">0</div>
+                  </h5>
+                  </h5>
+                  <div class="css"></div>
+                  <h5 class="heading-5">Js <div id="js">0</div>
+                  </h5>
+                  </h5>
+                  <div class="js"></div>
+                  <h5 class="heading-5">PHP <div id="php">0</div>
+                  </h5>
+                  </h5>
+                  <div class="php"></div>
+                  <h5 class="heading-5">WordPress <div id="wp">0</div>
+                  </h5>
+                  </h5>
+                  <div class="wp"></div>
+
+                </div>
+              </div>
+              <div class="p2"></div>
+              <!--  -->
+              <div class="box-5">
+
+                <h5 class="heading-7"><i class="fa fa-check" id="fa"></i> Bootstrap, Materialize</h5>
+                <h5 class="heading-7"><i class="fa fa-check" id="fa"></i> GIT knowledge</h5>
+                <h5 class="heading-7"><i class="fa fa-check" id="fa"></i> Styling</h5>
+
+
+              </div>
+
+            </div>
+          </div>
+          <h1 class="foot">
+            <i class="fa fa-behance" id="f1"></i>
+            <i class="fa fa-facebook-f" id="f1"></i>
+            <i class="fa fa-github" id="f1"></i>
+
+            <i class="fa fa-linkedin-square" id="f1"></i>
+
+          </h1>
+          <!-- <button onclick="toggleVisibility()" class="btn" id="btn-show"><i class="fa fa-bars"></i></button> -->
+          <!-- </div> -->
+        </div>
+
+
+
+        <div class="col-md-8 col-sm-4" id="col-6">
+
+
+          <div id="home" href="index.html">
+            <section id="sec">
+              <div class="container-xxl" id="home-page" data-aos="zoom-out">
+                <div class="row" id="h-r-1">
+                  <div class="col-md-6" id="h-c-1">
+                    <h1 class="heading-1">Fa<span class="s">s</span>ih
+                      <h1 class="heading-2">Na<p5 class="s">s</p5>ir</h5>
+                        <p class="para-1">Web-Developer<br>
+                          <p5 class="cr">Creative. Innovative. Skilled.</p5>
+                        </p>
+                  </div>
+<div class="col-md-4">
+  <!-- <div class="box-img"> -->
+    <!-- <img src="WhatsApp_Image_2023-02-26_at_3.33.52_AM-removebg.png" class="img-fluid" alt=""> -->
+  <!-- </div> -->
+</div>
+
+                </div>
+              </div>
+              <div class="container fluid" id="icon-cont">
+                <div class="row">
+                  <div class="col-md-11" id="icon-cont1"></div>
+                  <div class="col-md-1" id="icon-cont2">
+                    <a href=" https://wa.me/03146903187" target="_blank" id="icon-w">
+                      <!-- <i class="fa fa-whatsapp" id="whatsap" ></i> -->
+
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <!-- ab -->
+              <section id="about" data-aos="zoom-in">
+                <!-- <h1 class="head-1"></h1> -->
+                <!-- <div class="container" id="ab-img"></div> -->
+                <div class="container" id="about-page">
+                  <h1 class="heading-6">About-<span style="color: crimson;">Us</span></h1>
+                  <div class="row" id="a-r-1">
+                    <!-- <h1 class="head-1">About-Us</h1> -->
+                    <div class="col-md-5" id="ab-img">
+                      <img src="Desktop Wallpapers_ Minimal Dark Coding.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6" id="a-c-1">
+                      <p class="para-2">
+                        I am a <span style=>FASIH-NASIR</span> passionate and experienced Front-End Developer, dedicated
+                        to crafting responsive and visually stunning websites. With a keen eye for design and a strong
+                        technical skill set, I strive to create memorable online experiences for businesses and
+                        individuals alike.
+
+                        My goal is to bring your ideas to life by transforming them into functional and user-friendly
+                        websites. I specialize in utilizing the latest web technologies, including HTML5, CSS3,
+                        JavaScript, and responsive frameworks, to ensure that your website looks great on all devices
+                        and
+                        platforms.
+                      </p>
+
+                      <p class="para-3">
+
+                      </p>
+                      <p class="para-4">
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </section>
+              <!-- ser -->
+
+              <div class="container" id="service-page" data-aos="zoom-out">
+                <h1 class="heading-6"><span></span> Our-<span class="s" style="color: crimson;">Service</span></h1>
+                <div class="row" id="s-r-1">
+                  <div class="col-md-3" id="ser-col-1">
+
+                    <i class="fa fa-bars" id="kh"> </i>
+                    <h1 class="heading-4">Html and Css</h1>
+                    <p id="ps">As a web developer, having strong skills in HTML and CSS is essential. Here are some key
+                      skills
+                      related to HTML and CSS t</p>
+                    <button type="button" id="btns" class="btn btn-danger">Read-More</button>
+                    <!-- User icon with custom size and color -->
+                  </div>
+
+
+                  <div class="col-md-3" id="ser-col-2">
+                    <i class="fa fa-user" id="kh"></i>
+                    <h1 class="heading-4">BootStrap</h1>
+                    <p id="ps">As a web developer, having skills in Bootstrap 5 can be valuable for building responsive
+                      and visually
+                      appealing websites.</p>
+                    <button type="button" id="btns" class="btn btn-danger">Read-More</button>
+
+                  </div>
+
+                  <div class="col-md-3" id="ser-col-3">
+                    <i class="fa fa-bell" id="kh3"></i>
+                    <h1 class="heading-4">Js and Php</h1>
+                    <p id="ps">As a web developer, having skills in JavaScript (JS) and PHP can greatly enhance your
+                      ability to
+                      build dynamic and interactive </p>
+                    <button type="button" id="btns" class="btn btn-danger">Read-More</button>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- test -->
+              <div class="container" id="test" data-aos="zoom-in">
+                <h1 class="heading-6">Testi<span style="color: crimson;">monials</span></h1>
+
+                <div class="row" id="t-r-1">
+                  <div class="col-md-3" id="t-c-1">
+                    <!-- <a href="http://fasihnasir.rf.gd/"   > -->
+                    <img src="fn.jpg" class="img-fluid" id="img-test">
+                    <br>
+                    <button class="btn" onclick="fn()" id="btn-t">Visit</button>
+                    </a>
+
+                  </div>
+                  <!-- <div class="col-md-1"></div> -->
+                  <div class="col-md-3" id="t-c-2">
+                    <!-- <a href="http://wihrconsultant.free.nf/?i=1"> -->
+                    <img src="wi (2).jpg" class="img-fluid" id="img-test">
+                    <br>
+                    <button class="btn" onclick="wi()" id="btn-t">Visit</button>
+                    </a>
+                  </div>
+                  <!-- <div class="col-md-1"></div> -->
+                  <div class="col-md-3" id="t-c-3">
+                    <a href="http://bigbuzz.rf.gd/?i=1" target="_blank">
+                      <img src="bb.jpg" class="img-fluid" id="img-test" alt="">
+                      <br>
+                      <button class="btn" onclick="bb()" id="btn-t">Visit</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- cont -->
+              <section>
+                <div class="container" id="conatct-page" data-aos="zoom-out">
+                  <div class="row">
+                    <div class="col-md-6 ">
+                      <h1 class="heading-6"> Contact</h1>
+                      <!-- <h4>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+      </h4> -->
+                    </div>
+                    <div class="col-md-6 border-left py-3">
+                      <!-- <h1>Contact form</h1> -->
+                      <div class="form-group">
+                        <h5 for="name" style="color:crimson">Name</h5>
+                        <input type="text" class="form-control" id="name" style="color: white;"
+                          placeholder="Enter name" />
+                      </div>
+                      <div class="form-group">
+                        <h5 for="email" style="color:crimson">Email</h5>
+                        <input type="email" class="form-control" id="email" style="color: white;"
+                          placeholder="Enter email" />
+                      </div>
+                      <div class="form-group">
+                        <h5 for="message" style="color:crimson; ">Message</h5>
+                        <textarea class="form-control" id="message" style="color: white" rows="3"></textarea>
+                      </div>
+                      <button class="btn btn-primary" id="btc" onclick="sendMail()">Submit</button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+
+
+
+
+
+
+
+          </div>
+
+          <!--  -->
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="col-md-1 col-sm-4" id="col-4">
+      
+
+          <div class="box-last" id="hiddenParagraph1">
+            <div class="box-a">
+              <div class="l">
+                <li class="li">I</li>
+                <li class="li1">I</li>
+                <li class="li2">I</li>
+                <li class="li3">I</li>
+
+              </div>
+              <div>
+                <span class="s1">HOME<a href="" class="fa fa-home" id="fonth"></a></span>
+              </div>
+
+
+              <div class="ill">
+                <a href="" class="fa fa-home" id="fonth"></a>
+                <span class="s1">HOME</span>
+
+              </div>
+              <div class="ill">
+                <a href="" class="fa fa-user" id="fonth"></a>
+                <p class="s1">About</p>
+              </div>
+              <div class="ill">
+                <a href="" class="fa fa-briefcase" id="fonth"></a>
+                <span class="s1">Portfolio</span>
+              </div>
+              <div class="ill">
+                <a href="" class="fa fa-quote-left" id="fonth"></a>
+                <span class="s1">Testimonial</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="href"> -->
+
+          <!-- <a href="#home" id="h1"><i class="fa fa-home" id="fnh"></i><p class="ho">Home</p></a>
+        <a href="#about" id="h1"><i class="fa fa-user-circle"id="fnh"></i></i><p class="ho">Home</p></a>
+        <a href="#port" id="h1"><i class="fa fa-briefcase"id="fnh"></i><p class="ho">Home</p></i>
+        <a href="#home" id="h1"><i class="fa fa-envelope"></i></a> -->
+
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <!--  -->
+    <!-- </div>
+  </div> -->
+
+    <!-- </div> -->
+
+    <!-- loader-->
+
+    <!-- <div class="container" id="lb">
+      <div class="row">
+        <div class="col-3" id="lbc">
+
+        </div>
+        <div class="col-6" id="const">
+          <br>
+          <h1 class="hea-1" id="hconst"> Fn.PortFolio</h1>
+          <div class="load"></div>
+          <div id="loader"></div>
+        </div>
+        <div id="loader1">0</div>
+        <br>
+        <br>
+      </div>
+      <div class="col-3" id="lbc1">
+
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci nisi eum debitis maxime laboriosam, eius et
+        deleniti id optio quas doloribus quo fugiat neque accusamus maiore
+
+      </div>
+    </div> -->
+  <!-- </div> -->
+
+<script src="app.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bdootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+  </script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init("a9q6jxSCbVdBI316t");
+  })();
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 3000,
+    once: true,
+  });
+</script>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+</body>
+
+
+</html>
